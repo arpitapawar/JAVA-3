@@ -1,11 +1,11 @@
 public class Inputfunctions {
-
-	public static void main(String[] args) {
-		System.out.println("Number of Command Line Argument = "+args.length);
-		
-		for(int i = 0; i< args.length; i++) {
-			System.out.println(String.format("Command Line Argument %d is %s", i, args[i]));
-		}
-	}
-
+  public static void main(String[] args) {
+   int[] a=new int[args.length];
+int b
+   for(int i = 0; i< args.length; i++) {
+   a[i]=args[i];
+}
+   b = a[0] + a[1];
+   System.out.println("Total = " + b);
+  }
 }
