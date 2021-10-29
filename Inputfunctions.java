@@ -7,7 +7,6 @@ String sum=" ";
        sum=args[i]+sum;
 			System.out.println(String.format("Command Line Argument %d is %s", i, sum));
 		}
-   
-  
   }
+}
 }
