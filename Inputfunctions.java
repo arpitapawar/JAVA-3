@@ -1,7 +1,7 @@
 public class Inputfunctions {
   public static void main(String[] args) {
    String[] a=new String[args.length];
-int b;
+  string b;
    for(int i = 0; i< args.length; i++) {
    a[i]=args[i];
 }
