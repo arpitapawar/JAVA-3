@@ -1,5 +1,4 @@
 public class Inputfunctions {
-public class Inputfunctions {
   public static void main(String[] args) {
    System.out.println("Number of Command Line Argument = "+args.length);
 String sum=" ";
@@ -9,4 +8,4 @@ String sum=" ";
 		}
   }
 }
-}
+
